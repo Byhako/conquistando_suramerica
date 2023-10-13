@@ -44,6 +44,7 @@ header {
 .title_layout {
   margin: 0;
   font-size: 17px;
+  color: var(--blue-1);
 }
 
 nav {

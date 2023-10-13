@@ -1,0 +1,46 @@
+.ruta {
+  margin: 50px auto;
+  width: 90dvw;
+  border: 1px solid var(--white-1);
+  display: flex;
+  flex-direction: column;
+}
+
+.head_ruta {
+  height: 30px;
+  font-weight: 700;
+  display: flex;
+  border-bottom: 1px solid var(--white-1);
+  background-color: var(--blue-1);
+}
+
+.head_ruta .point {
+  justify-content: center;
+}
+
+.point {
+  color: var(--white-1);
+  border-right: 1px solid var(--white-1);
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+
+.dist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.row_ruta {
+  height: 40px;
+  display: flex;
+  border-bottom: 1px solid var(--white-1);
+}
+
+.row_ruta:nth-child(2n + 1) {
+  background-color: var(--second-bg-color);
+}

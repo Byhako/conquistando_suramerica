@@ -34,19 +34,22 @@ export default function Layout({children, title}) {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/">Ruta 1</a>
+            <a href="/rout1">Ruta 1</a>
           </li>
           <li>
-            <a href="/">Ruta 2</a>
+            <a href="/rout2">Ruta 2</a>
           </li>
           <li>
-            <a href="/">Ruta en texto</a>
+            <a href="/rout">Ruta en texto</a>
           </li>
           <li>
-            <a href="/">Lugares</a>
+            <a href="/places">Lugares</a>
           </li>
           <li>
-            <a href="/">Equipo</a>
+            <a href="/equipment">Equipo</a>
+          </li>
+          <li>
+            <a href="/contact">Contacto</a>
           </li>
         </ul>
       </nav>
