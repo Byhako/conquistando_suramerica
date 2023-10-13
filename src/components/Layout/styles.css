@@ -1,0 +1,149 @@
+.layout {
+  display: grid;
+  position: relative;
+  min-height: 100dvh;
+  width: 100dvw;
+  flex-direction: column;
+  overflow-x: hidden;
+
+  grid-template-areas: 
+  'header'
+  'content'
+  'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px 1fr 50px;
+}
+
+header {
+  grid-area: header;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid var(--white-1);
+  z-index: 2;
+  background-color: var(--main-bg-color);
+}
+
+.button_layout {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--white-1);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.button_layout span {
+  margin-left: 5px;
+}
+
+.title_layout {
+  margin: 0;
+  font-size: 17px;
+}
+
+nav {
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  width: 80dvw;
+  min-height: 100dvh;
+  position: fixed;
+  z-index: 2;
+  background-color: var(--second-bg-color);
+  transition: left 0.7s ease-in-out;
+}
+
+.layout nav div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--white-1);
+  height: 60px;
+}
+
+.layout nav div p {
+  width: 100%;
+  margin: 0 38px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: var(--blue-1);
+}
+
+.layout .btnClose {
+  border: none;
+  background: transparent;
+  color: var(--white-1);
+  margin: 10px;
+}
+
+.lista_nav {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.lista_nav li {
+  height: 80px;
+}
+
+.lista_nav a {
+  color: var(--white-1);
+  font-size: 18px;
+}
+
+.lista_nav a:visited {
+  color: var(--white-1);
+}
+
+.content {
+  grid-area: content;
+  width: 100%;
+  max-height: calc(100dvh - 110px);
+  flex-direction: column;
+  display: flex;
+  overflow-y: scroll;
+}
+
+footer {
+  grid-area: footer;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  color: var(--white-1);
+}
+
+footer a {
+  color: var(--white-1);
+  margin-left: 5px;
+  border-bottom: 1px solid var(--white-1);
+}
+
+@media only screen and (min-width: 576px) {
+  .layout {
+    grid-template-areas: 
+    'nav header'
+    'nav content'
+    'nav footer';
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 60px 1fr 50px;
+  }
+  .button_layout { display: none; }
+  nav {
+    position: initial;
+    width: 250px;
+  }
+  nav div {
+    background-color: var(--main-bg-color);
+  }
+  .btnClose { display: none; }
+
+}
