@@ -4,6 +4,8 @@
   border: 1px solid var(--white-1);
   display: flex;
   flex-direction: column;
+  background-color: var(--second-bg-color);
+  max-width: 400px;
 }
 
 .head_ruta {
@@ -41,6 +43,8 @@
   border-bottom: 1px solid var(--white-1);
 }
 
-.row_ruta:nth-child(2n + 1) {
-  background-color: var(--second-bg-color);
+.row_ruta img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
