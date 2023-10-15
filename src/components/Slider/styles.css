@@ -1,0 +1,35 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.card {
+  width: 100dvw;
+  min-width: 100dvw;
+  max-width: 450px;
+  padding: 0px;
+  max-width: calc(100% - 20px);
+}
+
+.card h2 {
+  font-size: 30px;
+  text-align: center;
+  max-width: calc(100% - 20px);
+}
+
+.card img {
+  max-width: calc(100% - 20px);
+  border-radius: 8px;
+}
+
+.card p {
+  max-width: calc(100% - 20px);
+}
+
+.card .text {
+  border-bottom: 3px solid var(--blue-1);
+  padding-bottom: 10px;
+}

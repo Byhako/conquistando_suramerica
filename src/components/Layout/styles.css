@@ -8,10 +8,9 @@
 
   grid-template-areas: 
   'header'
-  'content'
-  'footer';
+  'content';
   grid-template-columns: 1fr;
-  grid-template-rows: 60px 1fr 50px;
+  grid-template-rows: 60px 1fr;
 }
 
 header {
@@ -35,6 +34,9 @@ header {
   font-size: 14px;
   display: flex;
   align-items: center;
+  position: absolute;
+  left: 10px;
+
 }
 
 .button_layout span {
@@ -43,8 +45,9 @@ header {
 
 .title_layout {
   margin: 0;
-  font-size: 17px;
+  font-size: 28px;
   color: var(--blue-1);
+  width: 100%;
 }
 
 nav {
@@ -104,7 +107,7 @@ nav {
 .content {
   grid-area: content;
   width: 100%;
-  max-height: calc(100dvh - 110px);
+  max-height: calc(100dvh - 70px);
   flex-direction: column;
   display: flex;
   overflow-y: scroll;
@@ -120,6 +123,7 @@ footer {
   position: absolute;
   bottom: 0;
   color: var(--white-1);
+  border-top: 1px solid var(--white-1);
 }
 
 footer a {
@@ -132,10 +136,9 @@ footer a {
   .layout {
     grid-template-areas: 
     'nav header'
-    'nav content'
-    'nav footer';
+    'nav content';
     grid-template-columns: 250px 1fr;
-    grid-template-rows: 60px 1fr 50px;
+    grid-template-rows: 60px 1fr;
   }
   .button_layout { display: none; }
   nav {

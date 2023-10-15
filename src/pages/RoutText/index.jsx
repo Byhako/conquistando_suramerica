@@ -214,7 +214,7 @@ export default function RoutText() {
   }
 
   return (
-    <Layout title='Nuestra ruta'>
+    <Layout title='Nuestra ruta 📋'>
       <section className="ruta">
         <div className="head_ruta">
           <div className="point">Origen - destino</div>

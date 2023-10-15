@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.escudo {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.mapa {
+  margin: 50px 10px;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 576px) {
+  .escudo {
+    max-width: 400px;
+  }
+  .mapa {
+    max-width: 450px;
+  }
+}

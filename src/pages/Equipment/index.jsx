@@ -2,10 +2,20 @@ import Layout from "../../components/Layout";
 
 export default function Equipment() {
   return (
-    <Layout title='Equipo'>
-      <h2
-        style={{ textAlign: 'center', marginTop: '50px'}}
-      >Aqui no hay nada 😭</h2>
+    <Layout title='Equipo 🔧'>
+      <h2 className="title_equi">Obligatorio</h2>
+      <ul>
+        <li>
+
+        </li>
+      </ul>
+      
+      <h2 className="title_equi">Opcional</h2>
+      <ul>
+        <li>
+          
+        </li>
+      </ul>
     </Layout>
   )
 }

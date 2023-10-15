@@ -34,10 +34,7 @@ export default function Layout({children, title}) {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/rout1">Ruta 1</a>
-          </li>
-          <li>
-            <a href="/rout2">Ruta 2</a>
+            <a href="/rout1">Ruta en mapas</a>
           </li>
           <li>
             <a href="/rout">Ruta en texto</a>
@@ -52,18 +49,18 @@ export default function Layout({children, title}) {
             <a href="/contact">Contacto</a>
           </li>
         </ul>
+        <footer>
+          Create by <a
+          href='https://github.com/Byhako'
+          rel="noreferrer"
+          target='_blank'
+          >Byhako</a>
+        </footer>
       </nav>
       <section
         onClick={() => setShowNav(false)}
         className='content'
       >{children}</section>
-      <footer>
-        Create by <a
-        href='https://github.com/Byhako'
-        rel="noreferrer"
-        target='_blank'
-      >Byhako</a>
-      </footer>
     </div>
   )
 }
