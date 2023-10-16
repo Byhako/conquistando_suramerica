@@ -1,3 +1,9 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
 h1 {
   text-align: center;
   margin: 40px 0;
@@ -13,11 +19,16 @@ h1 {
   border-radius: 8px;
 }
 
+p {
+  text-align: center;
+}
+
 @media only screen and (min-width: 576px) {
   .escudo {
     max-width: 400px;
   }
   .mapa {
     max-width: 450px;
+    margin: 80px auto;
   }
 }

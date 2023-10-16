@@ -9,188 +9,268 @@ import './styles.css'
 
 const data = [
   {
+    id: 1,
     point: 'Bogotá - Cali',
-    distance: '479',
+    distance: '466',
     img: colombia,
     checked: false
   },
   {
+    id: 2,
     point: 'cali - Pasto',
     distance: '382',
     img: colombia,
     checked: false
   },
   {
+    id: 3,
     point: 'Pasto - Quito',
-    distance: '339',
+    distance: '331',
     img: ecuador,
     checked: false
   },
   {
+    id: 4,
     point: 'Quito - Naranjal',
-    distance: '409',
+    distance: '420',
     img: ecuador,
     checked: false
   },
   {
+    id: 5,
     point: 'Naranjal - Máncora',
-    distance: '277',
+    distance: '279',
     img: ecuador,
     checked: false
   },
   {
+    id: 5,
+    point: 'Naranjal - Sullana',
+    distance: '357',
+    img: ecuador,
+    checked: false
+  },
+  {
+    id: 6,
     point: 'Máncora - Chiclayo',
-    distance: '394',
+    distance: '393',
     img: peru,
     checked: false
   },
   {
+    id: 6,
+    point: 'Sullana - Chiclayo',
+    distance: '247',
+    img: peru,
+    checked: false
+  },
+  {
+    id: 7,
     point: 'Chiclayo - Trujillo',
     distance: '211',
     img: peru,
     checked: false
   },
   {
-    point: 'Trujillo - Barranca',
-    distance: '373',
+    id: 8,
+    point: 'Trujillo - Cañon Pato',
+    distance: '294',
     img: peru,
     checked: false
   },
   {
-    point: 'Barranca - St Vice Cañ',
-    distance: '336',
+    id: 9,
+    point: 'Cañon - Conococha',
+    distance: '252',
     img: peru,
     checked: false
   },
   {
-    point: 'St Vice Cañ - Nazca',
-    distance: '298',
+    id: 10,
+    point: 'Conococha - Lima',
+    distance: '322',
     img: peru,
     checked: false
   },
   {
-    point: 'Nazca - Camaná',
-    distance: '394',
+    id: 11,
+    point: 'Lima - Nasca',
+    distance: '447',
     img: peru,
     checked: false
   },
   {
-    point: 'Camaná - Arequipa',
-    distance: '174',
+    id: 12,
+    point: 'Nasca - Camaná',
+    distance: '393',
     img: peru,
     checked: false
   },
   {
+    id: 13,
+    point: 'Nasca - Arequipa',
+    distance: '177',
+    img: peru,
+    checked: false
+  },
+  {
+    id: 14,
     point: 'Arequipa - Puno',
-    distance: '295',
+    distance: '299',
     img: peru,
     checked: false
   },
   {
+    id: 15,
     point: 'Puno - La Paz',
-    distance: '250',
-    img: peru,
-    checked: false
-  },
-  {
-    point: 'La Paz - Ororu',
-    distance: '277',
+    distance: '265',
     img: bolivia,
     checked: false
   },
   {
+    id: 16,
+    point: 'La Paz - Ororu',
+    distance: '226',
+    img: bolivia,
+    checked: false
+  },
+  {
+    id: 17,
     point: 'Ororu - Uyuni',
     distance: '314',
     img: bolivia,
     checked: false
   },
   {
-    point: 'Uyuni - Maicota - Ollague',
+    id: 19,
+    point: 'Uyuni - Ollague',
     distance: '255',
-    img: bolivia,
-    checked: false
-  },
-  {
-    point: 'Ollague - Iquique',
-    distance: '304',
     img: chile,
     checked: false
   },
   {
+    id: 20,
+    point: 'Ollague - Calama',
+    distance: '198',
+    img: chile,
+    checked: false
+  },
+  {
+    id: 22,
+    point: 'Calama - Tocopila',
+    distance: '414',
+    img: chile,
+    checked: false
+  },
+  {
+    id: 23,
+    point: 'Tocopila - Iquique',
+    distance: '229',
+    img: chile,
+    checked: false
+  },
+  {
+    id: 24,
     point: 'Iquique - Tacna',
-    distance: '369',
+    distance: '366',
     img: chile,
     checked: false
   },
   {
+    id: 25,
     point: 'Tacna - Camaná',
-    distance: '395',
+    distance: '398',
     img: peru,
     checked: false
   },
   {
-    point: 'Camaná - Nazca',
-    distance: '394',
+    id: 26,
+    point: 'Camaná - Nasca',
+    distance: '393',
     img: peru,
     checked: false
   },
   {
-    point: 'Nazca - St Vice Cañ',
-    distance: '298',
+    id: 27,
+    point: 'Nasca - St Vice Cañ',
+    distance: '304',
     img: peru,
     checked: false
   },
   {
+    id: 28,
     point: 'St Vice Cañ - Barranca',
-    distance: '336',
+    distance: '343',
     img: peru,
     checked: false
   },
   {
+    id: 29,
     point: 'Barranca - Trujillo',
-    distance: '373',
+    distance: '372',
     img: peru,
     checked: false
   },
   {
+    id: 30,
     point: 'Trujillo - Chiclayo',
     distance: '211',
     img: peru,
     checked: false
   },
   {
+    id: 31,
+    point: 'Chiclayo - Sullana',
+    distance: '247',
+    img: peru,
+    checked: false
+  },
+  {
+    id: 31,
     point: 'Chiclayo - Máncora',
-    distance: '349',
+    distance: '393',
     img: peru,
     checked: false
   },
   {
+    id: 32,
+    point: 'Sullana - Naranjal',
+    distance: '357',
+    img: peru,
+    checked: false
+  },
+  {
+    id: 32,
     point: 'Máncora - Naranjal',
-    distance: '277',
+    distance: '279',
     img: peru,
     checked: false
   },
   {
+    id: 33,
     point: 'Naranjal - Quito',
-    distance: '409',
+    distance: '420',
     img: ecuador,
     checked: false
   },
   {
+    id: 34,
     point: 'Quito - Pasto',
-    distance: '339',
+    distance: '331',
     img: ecuador,
     checked: false
   },
   {
+    id: 35,
     point: 'Pasto - Cali',
     distance: '382',
     img: colombia,
     checked: false
   },
   {
+    id: 36,
     point: 'Cali - Bogotá',
-    distance: '479',
+    distance: '466',
     img: colombia,
     checked: false
   }
@@ -229,7 +309,7 @@ export default function RoutText() {
           >
             <div className="point">
               <img src={point.img} alt="ban" />
-              {idx+1} -
+              {point.id} -
               {point.point}
             </div>
             <div className="dist">{point.distance}</div>

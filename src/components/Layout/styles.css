@@ -47,7 +47,8 @@ header {
   margin: 0;
   font-size: 28px;
   color: var(--blue-1);
-  width: 100%;
+  width: 90%;
+  margin-left: auto;
 }
 
 nav {
@@ -110,7 +111,7 @@ nav {
   max-height: calc(100dvh - 70px);
   flex-direction: column;
   display: flex;
-  overflow-y: scroll;
+  overflow: hidden;
 }
 
 footer {
@@ -124,6 +125,7 @@ footer {
   bottom: 0;
   color: var(--white-1);
   border-top: 1px solid var(--white-1);
+  background-color: var(--main-bg-color);
 }
 
 footer a {
