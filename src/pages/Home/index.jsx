@@ -1,5 +1,5 @@
 import Layout from '../../components/Layout'
-import escudo from '../../images/escudo2.png'
+import escudo from '../../images/escudo.png'
 import mapa from '../../images/0.png'
 import './styles.css'
 

@@ -22,7 +22,7 @@ export default function Layout({children, title}) {
         >{title}</h1>
       </header>
       <nav
-        style={showNav ? {left: '0'} : {left: '-80dvw'}} >
+        style={showNav ? {left: '0'} : {left: '-80%'}} >
         <div>
           <p>Menu</p>
           <button type='button' className='btnClose' onClick={() => setShowNav(false)}>
