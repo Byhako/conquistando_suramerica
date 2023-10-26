@@ -49,3 +49,10 @@
   height: 20px;
   margin-right: 10px;
 }
+
+.ruta h2 {
+  text-align: center;
+  border-bottom: 1px solid var(--white-1);
+  margin: 0;
+  padding: 15px 0;
+}

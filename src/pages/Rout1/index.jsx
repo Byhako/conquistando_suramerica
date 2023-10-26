@@ -83,7 +83,7 @@ export default function Rout1() {
     {
       map: map69,
       title: 'Día 7',
-      subtext: 'Ruta corta,  tal vez se pueda continuar el día 6.',
+      text: 'Ruta corta,  tal vez se pueda continuar el día 6.',
     },
     {
       map: map7,

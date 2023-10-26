@@ -30,24 +30,13 @@ export default function Layout({children, title}) {
           </button>
         </div>
         <ul className='lista_nav'>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/rout1">Ruta en mapas</a>
-          </li>
-          <li>
-            <a href="/rout">Ruta en texto</a>
-          </li>
-          <li>
-            <a href="/places">Lugares</a>
-          </li>
-          <li>
-            <a href="/equipment">Equipo</a>
-          </li>
-          <li>
-            <a href="/contact">Contacto</a>
-          </li>
+          <a href="/"><li>Home</li></a>
+          <a href="/rout1"><li>Ruta en mapas</li></a>
+          <a href="/rout2"><li>Ruta 2</li></a>
+          <a href="/rout"><li>Ruta en texto</li></a>
+          <a href="/places"><li>Lugares</li></a>
+          <a href="/equipment"><li>Equipo</li></a>
+          <a href="/contact"><li>Contacto</li></a>
         </ul>
         <footer>
           Create by <a
