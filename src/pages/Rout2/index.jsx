@@ -23,7 +23,7 @@ const data = [
   {
     map: map33,
     title: 'Día 20 - 21',
-    subtext: 'Vamos para Atacama, Chile!. Paso frontirizo en medio de la nada. 😨'
+    subtext: 'Vamos para Atacama, Chile!. Paso fronterizo en medio de la nada. 😨'
   },
   {
     map: map34,

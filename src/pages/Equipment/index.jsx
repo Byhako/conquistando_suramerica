@@ -18,6 +18,8 @@ export default function Equipment() {
     scales12: false,
     scales13: false,
     scales14: false,
+    scales15: false,
+    scales16: false,
   })
 
   const handleClic = (key) => {
@@ -41,11 +43,11 @@ export default function Equipment() {
         <ul>
           <li>
             <input type="checkbox" id="scales1" name="scales1" checked={state.scales1} onClick={() => handleClic('scales1')} />
-            <label for="scales1">Chaqueta de protección, guantes, botas y rodilleras.</label>
+            <label for="scales1">Chaqueta de protección, guantes, botas y rodilleras o pantalón de protección.</label>
           </li>
           <li>
             <input type="checkbox" id="scales2" name="scales2" checked={state.scales2} onClick={() => handleClic('scales2')} />
-            <label for="scales2">Carpa y cobija.</label>
+            <label for="scales2">Carpa y cobija o sleeping.</label>
           </li>
           <li>
             <input type="checkbox" id="scales3" name="scales3" checked={state.scales3} onClick={() => handleClic('scales3')} />
@@ -53,7 +55,7 @@ export default function Equipment() {
           </li>
           <li>
             <input type="checkbox" id="scales4" name="scales4" checked={state.scales4} onClick={() => handleClic('scales4')} />
-            <label for="scales4">Conector USB en la moto.</label>
+            <label for="scales4">Conector USB en la moto o batería portatil.</label>
           </li>
           <li>
             <input type="checkbox" id="scales5" name="scales5" checked={state.scales5} onClick={() => handleClic('scales5')} />
@@ -61,11 +63,15 @@ export default function Equipment() {
           </li>
           <li>
             <input type="checkbox" id="scales6" name="scales6" checked={state.scales6} onClick={() => handleClic('scales6')} />
-            <label for="scales6">Neumáticos de repuesto. 1 llanta delantera y 1 trasera.</label>
+            <label for="scales6">Neumáticos HEAVY DUTY instalados y de repuesto. 1 llanta delantera y 1 trasera.</label>
           </li>
           <li>
             <input type="checkbox" id="scales7" name="scales7" checked={state.scales7} onClick={() => handleClic('scales7')} />
-            <label for="scales7">Herramienta basica de la moto. Llaves para desmontar las ruedas.</label>
+            <label for="scales7">Herramienta básica de la moto. Llaves para desmontar las ruedas.</label>
+          </li>
+          <li>
+            <input type="checkbox" id="scales15" name="scales15" checked={state.scales15} onClick={() => handleClic('scales15')} />
+            <label for="scales15">Llantas en excelente estado.</label>
           </li>
           <li>
             <input type="checkbox" id="scales8" name="scales8" checked={state.scales8} onClick={() => handleClic('scales8')} />
@@ -77,7 +83,11 @@ export default function Equipment() {
         <ul>
           <li>
             <input type="checkbox" id="scales9" name="scales9" checked={state.scales9} onClick={() => handleClic('scales9')} />
-            <label for="scales9">Aceite para lubricar cadena.</label>
+            <label for="scales9">Cepillo y aceite para lubricar cadena.</label>
+          </li>
+          <li>
+            <input type="checkbox" id="scales18" name="scales18" checked={state.scales18} onClick={() => handleClic('scales18')} />
+            <label for="scales18">Impermeable humano.</label>
           </li>
           <li>
             <input type="checkbox" id="scales10" name="scales10" checked={state.scales10} onClick={() => handleClic('scales10')} />
@@ -93,11 +103,19 @@ export default function Equipment() {
           </li>
           <li>
             <input type="checkbox" id="scales13" name="scales13" checked={state.scales13} onClick={() => handleClic('scales13')} />
-            <label for="scales13">Bateria cargador portatil.</label>
+            <label for="scales13">Batería cargador portatil.</label>
           </li>
           <li>
             <input type="checkbox" id="scales14" name="scales14" checked={state.scales14} onClick={() => handleClic('scales14')} />
             <label for="scales14">Cuerda.</label>
+          </li>
+          <li>
+            <input type="checkbox" id="scales16" name="scales16" checked={state.scales16} onClick={() => handleClic('scales16')} />
+            <label for="scales16">Camel back.</label>
+          </li>
+          <li>
+            <input type="checkbox" id="scales17" name="scales17" checked={state.scales17} onClick={() => handleClic('scales17')} />
+            <label for="scales17">Brújula.</label>
           </li>
         </ul>
       </div>

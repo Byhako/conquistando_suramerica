@@ -127,7 +127,7 @@ export default function Rout1() {
     {
       map: map10,
       title: 'Día 11',
-      text: 'Viaje largo por una recte infinita, toca tener paciencia y cantar. ¡Llegamos a Nazca!'
+      text: 'Viaje largo por una recte infinita, toca tener paciencia y cantar. 🚨Tener cuidado por Chincha y Asía pues hay clavos en el piso. ¡Llegamos a Nazca!'
     },
     {
       map: map11,
