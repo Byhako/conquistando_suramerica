@@ -32,7 +32,6 @@ export default function Layout({children, title}) {
         <ul className='lista_nav'>
           <a href="/"><li>Home</li></a>
           <a href="/rout1"><li>Ruta en mapas</li></a>
-          <a href="/rout2"><li>Ruta 2</li></a>
           <a href="/rout"><li>Ruta en texto</li></a>
           <a href="/places"><li>Lugares</li></a>
           <a href="/equipment"><li>Equipo</li></a>

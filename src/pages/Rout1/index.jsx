@@ -27,7 +27,10 @@ import map14 from '../../images/14.png'
 import map16 from '../../images/16.png'
 import map17 from '../../images/17.png'
 import map19 from '../../images/19.png'
+import map20 from '../../images/20.png'
+import map201 from '../../images/20.1.png'
 import map21 from '../../images/21.png'
+import map211 from '../../images/21.1.png'
 import map22 from '../../images/22.png'
 import map23 from '../../images/23.png'
 import map24 from '../../images/24.png'
@@ -162,23 +165,38 @@ export default function Rout1() {
     {
       map: map19,
       title: 'Día 19',
-      text: 'El día 18 estamos en el salar, en el día 19 podemos terminar de cruzar el salar hasta Maicota o regresar a Uyuni y tomar toda la ruta hasta Ollague. ¡Llegamos a Chile!'
+      text: 'El día 18 estamos en el salar, en el día 19 podemos terminar de cruzar el salar hasta Maicota y regresar a Uyuni.'
+    },
+    {
+      map: map20,
+      title: 'Día 20',
+      subtext: 'Frontera en puente internacional Horacio Guzman, Villazon - Quiaca'
+    },
+    {
+      map: map201,
+      text: 'Vamos para Argentina, Carretera Caracol.'
     },
     {
       map: map21,
-      title: 'Día 20 - 21',
-      text: 'Bajamos a Calama, ruta de arena, descansamos. El siguiente dia conocer el desierto de atacama y las Lagunas Escondidas de Baltinache'
+      title: 'Día 21',
+      subtext: 'Vamos para Atacama, Chile!. Paso fronterizo en medio de la nada. 😨'
+    },
+    {
+      map: map211,
+      text: 'Vamos para Atacama, Chile!. Desde aquí tenemos dos opciones de viaje. Decidimos segun tiempo.'
     },
     {
       map: map22,
       title: 'Día 22',
-      text: 'Ruta off de arena en medio de la nada.'
+      text: 'Lagunas increibles y luego Antofagasta 🙂'
     },
     {
       map: map23,
       title: 'Día 23',
-      text: 'Ruta de desierto y mar.'
+      text: 'Hasta Iquique, pasamos por Tocopilla.'
     },
+
+
     {
       map: map24,
       title: 'Día 24',

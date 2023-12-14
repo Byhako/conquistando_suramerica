@@ -89,6 +89,10 @@ nav {
 
 .lista_nav {
   list-style: none;
+  height: calc(100dvh - 146px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .lista_nav li {

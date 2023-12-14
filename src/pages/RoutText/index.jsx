@@ -144,29 +144,29 @@ const data = [
   },
   {
     id: 19,
-    point: 'Uyuni - Ollague',
-    distance: '255',
-    img: chile,
+    point: 'Uyuni - Capla',
+    distance: '463',
+    img: argentina,
     checked: false
   },
   {
     id: 20,
-    point: 'Ollague - Calama',
-    distance: '198',
-    img: chile,
+    point: 'Capla - Atacama',
+    distance: '473',
+    img: argentina,
     checked: false
   },
   {
     id: 22,
-    point: 'Calama - Tocopila',
-    distance: '414',
+    point: 'Atacama - Antofagasta',
+    distance: '365',
     img: chile,
     checked: false
   },
   {
     id: 23,
-    point: 'Tocopila - Iquique',
-    distance: '229',
+    point: 'Antofagasta - Iquique',
+    distance: '417',
     img: chile,
     checked: false
   },
@@ -277,43 +277,7 @@ const data = [
   }
 ]
 
-const data2 = [
-  {
-    id: 19,
-    point: 'Uyuni - Capla',
-    distance: '463',
-    img: argentina,
-    checked: false
-  },
-  {
-    id: 20,
-    point: 'Capla - Atacama',
-    distance: '473',
-    img: argentina,
-    checked: false
-  },
-  {
-    id: 22,
-    point: 'Capla - Tocopilla',
-    distance: '342',
-    img: chile,
-    checked: false
-  },
-  {
-    id: 22,
-    point: 'Capla - Antofagasta',
-    distance: '365',
-    img: chile,
-    checked: false
-  },
-  {
-    id: 23,
-    point: 'Antofagasta - Iquique',
-    distance: '417',
-    img: chile,
-    checked: false
-  },
-]
+
 
 export default function RoutText() {
   const [state, setState] = useState(data)
@@ -344,23 +308,6 @@ export default function RoutText() {
             key={idx}
             className="row_ruta"
             onClick={() => handleClic(idx)}
-            style={point.checked ? {backgroundColor: '#2f4d2f'} : {backgroundColor: '#242424'}}
-          >
-            <div className="point">
-              <img src={point.img} alt="ban" />
-              {point.id} -
-              {point.point}
-            </div>
-            <div className="dist">{point.distance}</div>
-          </div>
-        ))}
-
-        <h2>Ruta opcional con Argentina</h2>
-
-        {data2.map((point, idx) => (
-          <div
-            key={idx}
-            className="row_ruta"
             style={point.checked ? {backgroundColor: '#2f4d2f'} : {backgroundColor: '#242424'}}
           >
             <div className="point">

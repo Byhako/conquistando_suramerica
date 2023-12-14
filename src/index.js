@@ -6,7 +6,6 @@ import './index.css'
 import Home from './pages/Home'
 import NoFound from './pages/NoFound'
 import Rout1 from './pages/Rout1'
-import Rout2 from './pages/Rout2'
 import RoutText from './pages/RoutText'
 import Places from './pages/Places'
 import Equipment from './pages/Equipment'
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
   {
     path: '/rout1',
     element: <Rout1 />,
-  },
-  {
-    path: '/rout2',
-    element: <Rout2 />,
   },
   {
     path: '/rout',
