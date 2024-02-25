@@ -32,22 +32,22 @@ const data = [
   },
   {
     id: 4,
-    point: 'Quito - Naranjal',
-    distance: '420',
+    point: 'Quito - Cuenca',
+    distance: '461',
     img: ecuador,
     checked: false
   },
   {
     id: 5,
-    point: 'Naranjal - Máncora',
-    distance: '279',
+    point: 'Cuenca - Máncora',
+    distance: '347',
     img: ecuador,
     checked: false
   },
   {
     id: 5,
-    point: 'Naranjal - Sullana',
-    distance: '357',
+    point: 'Cuenca - Sullana',
+    distance: '425',
     img: ecuador,
     checked: false
   },
