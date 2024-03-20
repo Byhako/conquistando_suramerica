@@ -13,7 +13,8 @@
   padding-left: 10px 
 }
 
-.contact p {
+.contact a {
+  text-decoration: none;
   text-align: left;
   padding-left: 10px;
 }
